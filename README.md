@@ -1,13 +1,13 @@
 # Website-Template
-HTML, CSS, JavaScript.
+This template is designed using HTML, CSS and JavaScript.
 
 ## Screenshots of the Template
 
-<img src="screenshot/1.png" height=400 width=600/><br>
-## Welcome Screen <br>
+<img src="1.png" height=515 width=940/><br>
+## Nevigation page <br>
 
-<img src="screenshot/2.png" height=400 width=600/><br>
-## Contact US page <br>
+<img src="2.png" height=515 width=940/><br>
+## Menu design <br>
 
-<img src="screenshot/3.png" height=400 width=600/><br>
-## Available Users for Login <br>
+<img src="3.png" height=515 width=940/><br>
+## Content Page <br>
