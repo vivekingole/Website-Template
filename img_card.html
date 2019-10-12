@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<HTML>
+<head>
+<style>
+body{
+font-family: sans-serif;
+}
+.card{
+float:left;
+position:relative;
+width:auto;
+background-color: orange;
+box-shadow: 1px 3px 10px 2px black;
+border-radius: 0px 15px;
+transition:.5s;
+}
+.image{
+height: auto;
+border-radius: 0px 15px;
+display: block;
+}
+.over{
+position: absolute;
+bottom:0;
+left:0;
+right:0;
+width:auto;
+overflow:hidden;
+height:0;
+background-color: #fffA;
+transition: .5s ease;
+border-radius: 0px 15px;
+}
+.card:hover .over{
+height:80%;
+}
+.card:hover{
+transition:.5s;
+transform:scale(1.05);
+box-shadow:1px 5px 20px 3px black;
+}
+.text{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+.title{
+padding: 0px 10px 10px 20px;
+color: white;
+}
+</style>
+</head>
+<body>
+<div class="card">
+<img src="img1.jpg" class="image" width=300px>
+<div class="over">
+<div class="text">This is description about image</div>
+</div>
+<div class="title"><h3>Image1</h3>This is image about nature</div>
+</div> 
+</div>
+</body>
+</html>
